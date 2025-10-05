@@ -1,45 +1,24 @@
 # Blog API
 
-A RESTful Blog API built with *Node.js*, *Express*, and **MongoDB*. Users can register, log in, and create/manage blogs. Public blogs can be fetched without authentication.
+A RESTful API for managing blogs, built with **Node.js**, **Express**, and **MongoDB**. Users can create accounts, sign in, and manage their blogs. Blogs can be drafted or published, and public users can view published blogs.
 
 ---
 
-## Table of Contents
+## **Features**
 
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [Running Locally](#running-locally)
-- [API Endpoints](#api-endpoints)
-- [Deployment](#deployment)
-- [License](#license)
+- User registration and login with JWT authentication
+- Create, update, publish/unpublish, and delete blogs (authenticated users only)
+- View all published blogs (public)
+- Pagination, search, filter by author or tags
+- MongoDB for data storage
 
 ---
 
-## Features
+## **Installation**
 
-- User registration and login with JWT authentication.
-- Create, update, delete blogs (authenticated users only).
-- Publish/unpublish blogs.
-- Fetch all published blogs with pagination, search, author filter, and tags filter.
-- Increment read count when a blog is viewed.
-- Secure password hashing with bcrypt.
+1. Clone the repository:
 
----
-
-## Technologies
-
-- Node.js
-- Express.js
-- MongoDB (Atlas)
-- Mongoose
-- JSON Web Tokens (JWT)
-- bcrypt.js
-- express-validator
-- Nodemon (development)
-
----
-
-
-
+```bash
+git clone https://github.com/Dorothy-44/BlogAPI.git
+cd BlogAPI
+Render url https://blogapi-oqy9.onrender.com
